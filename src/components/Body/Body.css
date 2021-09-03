@@ -1,0 +1,9 @@
+.body {
+  height: calc(100vh - 90px);
+  width: calc(100% - 241px);
+  box-sizing: border-box;
+  padding: 0 32px;
+  color: #fff;
+  background-color: #121212;
+  overflow-y: scroll;
+}

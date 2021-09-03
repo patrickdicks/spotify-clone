@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px;
+  border-top: 1px solid #282828;
+  background-color: #181818;
+}
+
+.track-details-container {
+  width: 326px;
+}

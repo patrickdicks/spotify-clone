@@ -1,0 +1,33 @@
+.track-details {
+  display: flex;
+  align-items: center;
+}
+
+.track-details-album-artwork {
+  object-fit: cover;
+  margin-right: 16px;
+  width: 56px;
+  height: 56px;
+}
+
+.track-details-text {
+  margin-right: 16px;
+}
+
+.track-details-track-name {
+  font-size: 14px;
+  color: #fff;
+}
+
+.track-details-album-name {
+  font-size: 11px;
+  color: #b3b3b3;
+}
+
+.track-details-favorite-icon {
+  color: #b3b3b3;
+}
+
+.track-details-favorite-icon-white {
+  color: #fff;
+}

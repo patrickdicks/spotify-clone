@@ -1,0 +1,51 @@
+album-tracks-album-name {
+  font-size: 72px;
+}
+
+.album-tracks-artist-name {
+  font-size: 14px;
+}
+
+.album-tracks-menu {
+  margin-top: 16px;
+  border-bottom: 1px solid #282828;
+}
+
+.album-tracks-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.album-tracks-track,
+.album-tracks-track-selected {
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  height: 56px;
+  border-radius: 5px;
+}
+
+.album-tracks-track-selected {
+  background-color: #727272;
+}
+
+.album-tracks-track:hover {
+  background-color: #282828;
+}
+
+.album-tracks-track:hover .album-tracks-track-artist-name {
+  color: #fff;
+}
+
+.album-tracks-track-name-artist-name {
+  margin-left: 16px;
+}
+
+.ablum-tracks-track-name {
+  font-size: 16px;
+}
+
+.album-tracks-track-artist-name {
+  font-size: 14px;
+  color: #b3b3b3;
+}

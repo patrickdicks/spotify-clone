@@ -1,0 +1,10 @@
+.search-bar-search-input {
+  width: 344px;
+  height: 32px;
+  padding: 4px 4px 4px 16px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  font-family: "Proxima Nova", Georgia, sans-serif;
+  background: #fff;
+}

@@ -1,0 +1,44 @@
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.albums-album-container {
+  display: inline-block;
+  margin: 0 16px 16px 0;
+  padding: 16px 16px 32px 16px;
+  cursor: pointer;
+  border-radius: 1%/2%;
+  background-color: #1a1a1a;
+}
+
+.albums-album-container:hover {
+  background-color: #282828;
+}
+
+.albums-album-image {
+  width: 152px;
+  height: 152px;
+  object-fit: cover;
+}
+
+.albums-info-text {
+  display: block;
+  margin-top: 16px;
+  width: 152px;
+  line-height: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.albums-album-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.albums-artist-name {
+  font-size: 14px;
+}

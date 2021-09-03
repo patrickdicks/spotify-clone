@@ -1,0 +1,5 @@
+.volume-slider-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 326px;
+}

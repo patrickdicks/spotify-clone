@@ -1,0 +1,52 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b3b3b3;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 188px;
+}
+
+.play-pause-button {
+  color: #fff;
+}
+
+.player-button:hover {
+  color: #fff;
+}
+
+.player-button-green {
+  color: #1ed760;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.progress-bar {
+  width: 480px;
+  margin: 0 8px;
+}
+
+.progress-start-label,
+.progress-end-label {
+  display: flex;
+  font-size: 11px;
+  color: #b3b3b3;
+  width: 32px;
+}
+
+.progress-start-label {
+  justify-content: flex-end;
+}
+
+.progress-end-label {
+  justify-content: flex-start;
+}

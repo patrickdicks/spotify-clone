@@ -1,0 +1,49 @@
+.artists-container {
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.artist-container:hover {
+  background-color: #282828;
+}
+
+.artist-container:hover .artist-artist-text {
+  background-color: #242424;
+}
+
+.artist-container {
+  margin-right: 10px;
+  padding: 22px;
+  width: 404px;
+  border-radius: 1%/2%;
+  background-color: #1a1a1a;
+}
+
+.artist-image {
+  height: 92px;
+  width: 92px;
+  border-radius: 50%;
+}
+
+.artists-details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.artists-details {
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.artists-artist-name {
+  margin-top: 16px;
+  font-size: 32px;
+}
+
+.artist-artist-text {
+  padding: 4px 12px;
+  border-radius: 25px;
+  font-size: 12px;
+  background-color: #121212;
+}
